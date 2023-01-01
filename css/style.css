@@ -13,6 +13,23 @@ header.jumbotron {
   margin-top: 200px;
   margin-left: 12.5%;
   text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
+a.btn {
+  background-color: white;
+  color: black;
+  border: solid black;
+}
+a.btn:hover {
+  background-color: grey;
+  color: white;
+  border: white;
+}
 
+.my-4 {
+  color: orange;
+}
