@@ -8,15 +8,21 @@ body {
   font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 
-header.jumbotron {
+header.masthead {
+  background: url("./images/henry2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+}
+
+.jumbotronContainer {
   max-width: 75%;
   margin-top: 200px;
   margin-left: 12.5%;
   text-align: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
 
 a.btn {
