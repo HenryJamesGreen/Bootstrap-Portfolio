@@ -39,3 +39,9 @@ a.btn:hover {
 .my-4 {
   color: orange;
 }
+
+header.masthead .image-container {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
