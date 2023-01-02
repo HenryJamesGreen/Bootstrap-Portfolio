@@ -50,3 +50,9 @@ header.masthead .image-container {
 .img-fluid {
   max-width: 90%;
 }
+
+/* work card section */
+
+.card-deck {
+    padding: 10px;
+}
