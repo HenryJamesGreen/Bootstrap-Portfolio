@@ -41,7 +41,12 @@ a.btn:hover {
 }
 
 header.masthead .image-container {
-    max-width: 300px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  max-width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.img-fluid {
+  max-width: 90%;
+}
