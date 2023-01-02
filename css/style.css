@@ -40,12 +40,12 @@ header.masthead {
   border-bottom: none;
 }
 
-a.btn {
+.btn {
   background-color: white;
   color: black;
   border: solid black;
 }
-a.btn:hover {
+.btn:hover {
   background-color: grey;
   color: white;
   border: white;
@@ -92,13 +92,11 @@ header.masthead .image-container {
 
 /*Modal*/
 
-.modal {
-}
 
 .modal-content {
-  min-width: 100%;
-  position: relative;
-  margin-left: ;
+  min-width: 150%;
+  position: absolute;
+  margin-left: -25% ;
   margin-right: auto;
 }
 
