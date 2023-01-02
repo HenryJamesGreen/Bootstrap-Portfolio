@@ -71,11 +71,13 @@ header.masthead .image-container {
 .card-deck {
   padding: 50px;
   background: rgba(0, 0, 0, 0.7);
-  border: solid black 1px;
 }
+
+
 
 .card-deck .card .card-img-top {
   max-height: 100%;
+  border-bottom: solid black 1px;
 }
 
 /*Skills Section*/
@@ -92,14 +94,35 @@ header.masthead .image-container {
 
 /*Modal*/
 
-
 .modal-content {
   min-width: 150%;
   position: absolute;
-  margin-left: -25% ;
+  margin-left: -25%;
   margin-right: auto;
 }
 
 #imagepreview {
   max-width: 100%;
+}
+
+/* About section cards */
+
+.card2 {
+ position: relative;
+ text-align: center;
+ margin-top: 100px;
+}
+
+.btn2 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.headshot2 {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.card {
+    border: solid black 1px;
 }
