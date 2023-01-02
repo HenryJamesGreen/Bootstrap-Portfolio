@@ -11,15 +11,13 @@ body {
 /* Nav Section */
 
 #mainNav {
-    border-color: rgba(0, 0, 0, 0.05);
-    background-color: rgba(255, 255, 255, 1);
-    transition: all .35s;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 400;
-    letter-spacing: 2px;
-  } 
-
-
+  border-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 1);
+  transition: all 0.35s;
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
+  font-weight: 400;
+  letter-spacing: 2px;
+}
 
 /* Hero section */
 
@@ -27,7 +25,7 @@ header.masthead {
   background: url("./images/henry2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: -20px;
+  margin-top: -150px;
 }
 
 .jumbotronContainer {
@@ -39,6 +37,7 @@ header.masthead {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border: solid black 1px;
+  border-bottom: none;
 }
 
 a.btn {
@@ -77,4 +76,15 @@ header.masthead .image-container {
 
 .card-deck .card .card-img-top {
   max-height: 100%;
+}
+
+/*Skills Section*/
+.skills {
+  padding: 50px;
+}
+
+.col-lg-6 .skills-item .mb-0 {
+  list-style-position: inside;
+  color: black;
+  text-align: center;
 }
