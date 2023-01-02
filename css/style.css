@@ -73,8 +73,6 @@ header.masthead .image-container {
   background: rgba(0, 0, 0, 0.7);
 }
 
-
-
 .card-deck .card .card-img-top {
   max-height: 100%;
   border-bottom: solid black 1px;
@@ -108,21 +106,22 @@ header.masthead .image-container {
 /* About section cards */
 
 .card2 {
- position: relative;
- text-align: center;
- margin-top: 100px;
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .btn2 {
-    padding: 10px;
-    font-size: 30px;
+  padding: 10px;
+  font-size: 30px;
 }
 
 .headshot2 {
-    width: 50%;
-    margin-left: 25%;
+  width: 50%;
+  border: 1px solid black;
 }
 
 .card {
-    border: solid black 1px;
+  border: solid black 1px;
+  text-align: center;
 }
