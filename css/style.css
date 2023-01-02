@@ -79,12 +79,29 @@ header.masthead .image-container {
 }
 
 /*Skills Section*/
-.skills {
+.container-skills {
   padding: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .col-lg-6 .skills-item .mb-0 {
   list-style-position: inside;
   color: black;
   text-align: center;
+}
+
+/*Modal*/
+
+.modal {
+}
+
+.modal-content {
+  min-width: 100%;
+  position: relative;
+  margin-left: ;
+  margin-right: auto;
+}
+
+#imagepreview {
+  max-width: 100%;
 }
