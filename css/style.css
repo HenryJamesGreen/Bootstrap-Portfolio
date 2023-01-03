@@ -8,11 +8,19 @@ body {
   font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 
+:root {
+  --black-border: 1px solid black;
+  --bg1: rgba(0, 0, 0, 0.5);
+  --bg2: rgba(255, 255, 255, 1);
+  --bg3: rgba(0, 0, 0, 0.7);
+  --bg4: rgba(0, 0, 0, 0.1);
+  --bg5: rgba(255, 255, 255, 0.8);
+}
 /* Nav Section */
 
 #mainNav {
-  border-color: rgba(0, 0, 0, 0.05);
-  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--bg2);
   transition: all 0.35s;
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 400;
@@ -34,7 +42,7 @@ header.masthead {
   margin-left: 12.5%;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--bg1);
   padding: 10px;
   border: solid black 1px;
   border-bottom: none;
@@ -64,13 +72,15 @@ header.masthead .image-container {
 
 .img-fluid {
   max-width: 90%;
+  border: solid 1px black;
+  border-radius: 50%;
 }
 
 /* work card section */
 
 .card-deck {
   padding: 50px;
-  background: rgba(0, 0, 0, 0.7);
+  background: var(--bg3);
 }
 
 .card-deck .card .card-img-top {
@@ -81,7 +91,7 @@ header.masthead .image-container {
 /*Skills Section*/
 .container-skills {
   padding: 50px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--bg4);
 }
 
 .col-lg-6 .skills-item .mb-0 {
@@ -118,19 +128,19 @@ header.masthead .image-container {
 
 .headshot2 {
   width: 50%;
-  border: 1px solid black;
+  border: var(--black-border);
 }
 
 .card {
   border: solid black 1px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.8);
+  background: var(--bg5);
 }
 
 /*footer icons*/
 .icons-container {
   min-height: 100px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--bg4);
 }
 
 .icons {
@@ -145,7 +155,7 @@ header.masthead .image-container {
 }
 
 .fa:hover {
-  box-shadow: -1em 0 0.4em rgba(0, 0, 0, 0.1);
+  box-shadow: -1em 0 0.4em var(--bg1);
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -153,10 +163,59 @@ header.masthead .image-container {
   text-align: center;
   font-size: 11px;
   padding-top: 10px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--bg3);
   color: white;
 }
+/*Icon and email text (above). Placed here due to linear characteristic of CSS */
 
 .headshot2 {
   margin: 15px;
+}
+
+.cardbody2 {
+  display: inline-block;
+  height: 300px;
+  margin-top: 150px;
+}
+
+.fa-envelope {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.email-link-text {
+  color: black;
+}
+
+.email-link-text:hover {
+  box-shadow: -1em 0 0.4em var(--bg1);
+  color: var(--bg5);
+}
+/* media queries for using on a screen 755px and below. Needed space to close modal CV */
+
+@media screen and (max-width: 755px) {
+  #imagepreview {
+    max-width: 70%;
+  }
+
+  .modal-footer {
+    display: block;
+  }
+}
+
+/* for enlarging image preview on bigger windows */
+
+@media screen and (min-width: 1150px) {
+  .modal-content {
+    min-width: 250%;
+    position: absolute;
+    margin-left: -75%;
+    margin-right: auto;
+  }
+
+  #imagepreview {
+    max-width: 100%;
+  }
 }
