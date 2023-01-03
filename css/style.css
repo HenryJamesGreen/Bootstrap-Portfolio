@@ -127,4 +127,18 @@ header.masthead .image-container {
 }
 
 /*footer icons*/
+.icons-container {
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
+.icons {
+  text-align: center;
+}
+.fa {
+  min-height: 50px;
+  font-size: 30px;
+  width: 20%;
+  padding: 20px;
+  color: black;
+}
