@@ -17,7 +17,7 @@ N/A
 
 Wesbite link: https://henryjamesgreen.github.io/Bootstrap-Portfolio/
 
-The website can be used to acces information about me, my skills, my work, contact information and to view my external resume.
+The website can be used to acces information about me, my skills, my work, contact information and to view my external resume. PLEASE NOTE: Includes small use of media queries, in order to display modal element more conveniently for mobile and desktop users.
 
 ## Credits
 
