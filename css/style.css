@@ -124,12 +124,13 @@ header.masthead .image-container {
 .card {
   border: solid black 1px;
   text-align: center;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 /*footer icons*/
 .icons-container {
-    min-height: 100px;
-    background-color: rgba(0, 0, 0, 0.1);
+  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .icons {
@@ -141,4 +142,17 @@ header.masthead .image-container {
   width: 20%;
   padding: 20px;
   color: black;
+}
+
+.fa:hover {
+  box-shadow: -1em 0 0.4em rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.legal {
+  text-align: center;
+  font-size: 11px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
 }

@@ -67,7 +67,7 @@
       <p>For a portfolio of work, please click below.</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     <div class="image-container">
-      <img src="/css/images/hen-blackandwhite.png" class="img-fluid">
+      <img src="/css/images/hen-blackandwhite.png" class="img-fluid" alt="Henry Green headshot1" title="Henry Green">
     </div>
     </div>
     </header>
@@ -77,7 +77,7 @@
     <div class="card-deck" id="work">
       <div class="card">
         <a href="https://henryjamesgreen.github.io/prework-study-guide/" target="_blank">
-        <img src="./css/images/prework-study-guide-screengrab.jpg" class="card-img-top" alt="Screengrab of Prework Study Guide."></a>
+        <img src="./css/images/prework-study-guide-screengrab.jpg" class="card-img-top" alt="Screengrab of Prework Study Guide." title="Prework Study Guide"></a>
         <div class="card-body">
           <h5 class="card-title">Prework Study Guide</h5>
           <p class="card-text">A guide for the frontend development course prework.</p>
@@ -86,7 +86,7 @@
       </div>
       <div class="card">
         <a href="https://henryjamesgreen.github.io/portfolio/" target="_blank">
-        <img src="./css/images/portfolio-screengrab.jpg" class="card-img-top" alt="Screengrab of sample portfolio using CSS Grid."></a>
+        <img src="./css/images/portfolio-screengrab.jpg" class="card-img-top" alt="Screengrab of sample portfolio using CSS Grid." title="Portfolio sample (CSS Grid)"></a>
         <div class="card-body">
           <h5 class="card-title">Portfolio</h5>
           <p class="card-text">A sample portfolio created using CSS Grid.</p>
@@ -95,7 +95,7 @@
       </div>
       <div class="card">
         <a href="#" target="_blank">
-        <img src="https://placehold.co/600x600/png" class="card-img-top" alt="Placeholder of future project card."></a>
+        <img src="https://placehold.co/600x600/png" class="card-img-top" alt="Placeholder of future project card." title="coming soon"></a>
         <div class="card-body">
           <h5 class="card-title">Coming Soon</h5>
           <p class="card-text">Good things come to those who wait (Guinness ad - some years ago).</p>
@@ -162,21 +162,21 @@
       </section>
       <!--About and Contact Section-->
 
-      <section class="card-deck">
+      <section class="card-deck" id="about">
         <div class="card col-lg-6">
           <div class="card-body">
             <h5 class="card-title">About
             </h5>
-            <p class="card-text">As an experienced professional musician, tutor and composer with an MMus in Popular Music Performance, I am used to working in target-driven and results- based environments with people from a diverse range of cultures and backgrounds. I am currently studying a software development course, as part of the 'Skills for Life' edX programme, as well as studying a Postgraduate Diploma in Law at BPP.</p><img src="./css/images/oldheadshot1.jpeg" class="card-img-top headshot2" alt="headshot of Henry Green">
+            <p class="card-text">As an experienced professional musician, tutor and composer with an MMus in Popular Music Performance, I am used to working in target-driven and results- based environments with people from a diverse range of cultures and backgrounds. I am currently studying a software development course, as part of the 'Skills for Life' edX programme, as well as studying a Postgraduate Diploma in Law at BPP.</p><img src="./css/images/oldheadshot1.jpeg" class="card-img-top headshot2" alt="headshot of Henry Green" title="Henry Green">
           </div>
         </div>
           <div class="card-body card2 col-lg-6">
-            <a class="btn btn-primary btn-lg btn2" href="mailto: henryjamesgreen92@gmail.com" role="button">click to e-mail</a>
+            <a class="btn btn-primary btn-lg btn2" id="contact" href="mailto: henryjamesgreen92@gmail.com" role="button">click to e-mail</a>
           </div>
       </section>
        
       <!--Footer - social links-->
-      <section class="icons-container">
+      <footer class="icons-container">
         <div class="icons">
         <a
           href="https://www.linkedin.com/in/henryjamesgreen/"
@@ -199,8 +199,9 @@
           target="_blank"
         ></a>
       </div>
+      <p class="legal">© Henry Green 2023. All Rights Reserved.</p>
       </div>
-      </section>
+      </footer>
       
       <!--js from frontend dev week3 (for use with buttons)-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
