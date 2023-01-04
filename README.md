@@ -6,10 +6,8 @@ This webpage is a portfolio of my work made using Bootstrap. It includes clickab
 
 This has been created in order to display my 'online CV' and portfolio of work, and has helped to develop my Bootstrap skills, as well as further CSS, HTML and using other sites for icons, such as Font Awesome.
 
+![](20230104200159.png)  
 
-
-[Screengrab 1 - desktop view](./css/images/Screenshot%20wide-01-03%20at%2013.53.41.png)
-[Screengrab 2 - mobile view](./css/images/Screenshot%20narrow.png)
 
 ## Installation
 
